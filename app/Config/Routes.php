@@ -34,6 +34,52 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$myroutes = [];
+$myroutes ['about'] = 'Home::about';
+
+$myroutes ['/downloads/grammar'] = 'Downloads::Grammar';
+$myroutes ['/downloads/spoken-english'] = 'Downloads::SpokenEnglish';
+$myroutes ['/downloads/parts-of-speech'] = 'Downloads::PartsOfSpeech';
+$myroutes ['/downloads/vocabulary'] = 'Downloads::Vocabulary';
+$myroutes ['/downloads/translation'] = 'Downloads::Translation';
+$myroutes ['/downloads/objective-english'] = 'Downloads::ObjectiveEnglish';
+$myroutes ['/downloads/interview'] = 'Downloads::InterviewQandA';
+$myroutes ['/downloads/essays'] = 'Downloads::Essays';
+
+$myroutes ['/onlinecourses/spelling-and-basic-english-course'] = 'Onlinecourses::SpellingAndBasicEnglishCourse';
+$myroutes ['/onlinecourses/english-grammar-course'] = 'Onlinecourses::EnglishGrammarCourse';
+$myroutes ['/onlinecourses/spoken-english-course'] = 'Onlinecourses::SpokenEnglishCourse';
+$myroutes ['/onlinecourses/translation-course'] = 'Onlinecourses::TranslationCourse';
+$myroutes ['/onlinecourses/cursive-handwriting-course'] = 'Onlinecourses::CursiveHandwritingCourse';
+$myroutes ['/onlinecourses/objective-english-course'] = 'Onlinecourses::ObjectiveEnglishCourse';
+$myroutes ['/onlinecourses/jobs-skills-training-course'] = 'Onlinecourses::JobsSkillsTrainingCourse';
+$myroutes ['/onlinecourses/essay-writing-course'] = 'Onlinecourses::EssayWritingCourse';
+$myroutes ['/onlinecourses/build-your-vocabulary-course'] = 'Onlinecourses::BuildYourVocabularyCourse';
+$myroutes ['/onlinecourses/precis-writing-course'] = 'Onlinecourses::PrecisWritingCourse';
+
+$myroutes ['/blogs/grammar'] = 'Blogs::Grammar';
+$myroutes ['/blogs/spoken-english'] = 'Blogs::SpokenEnglish';
+$myroutes ['/blogs/parts-of-speech'] = 'Blogs::PartsOfSpeech';
+$myroutes ['/blogs/vocabulary'] = 'Blogs::Vocabulary';
+$myroutes ['/blogs/translation'] = 'Blogs::Translation';
+$myroutes ['/blogs/objective-english'] = 'Blogs::ObjectiveEnglish';
+$myroutes ['/blogs/interview'] = 'Blogs::InterviewQandA';
+$myroutes ['/blogs/essays'] = 'Blogs::Essays';
+
+$myroutes ['/more/contact'] = 'More::Contact';
+$myroutes ['/more/english-charts'] = 'More::EnglishCharts';
+$myroutes ['/more/students-doubts'] = 'More::StudentsDoubts';
+
+$myroutes ['/socialmedia/youtube-channel'] = 'Socialmedia::Youtube';
+$myroutes ['/socialmedia/facebookpage'] = 'Socialmedia::FacebookPage';
+$myroutes ['/socialmedia/instagram'] = 'Socialmedia::Instagram';
+$myroutes ['/socialmedia/spotify'] = 'Socialmedia::Spotify';
+
+$myroutes ['/ebooks/'] = 'EBooks::';
+
+$myroutes ['/services/'] = 'Services::';
+
+$routes->map($myroutes);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

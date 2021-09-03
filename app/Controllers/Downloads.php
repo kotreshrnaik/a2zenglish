@@ -17,7 +17,7 @@ class Downloads extends Controller{
     {
         return view('home_view');
     }
-    public function grammar()
+    public function Grammar()
     {
         return view('downloads/grammar_view');
     }

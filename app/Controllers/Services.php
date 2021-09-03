@@ -6,3 +6,16 @@
  * and open the template in the editor.
  */
 
+namespace App\Controllers;
+use CodeIgniter\Controller;
+/**
+ * Description of DesignSolutions
+ *
+ * @author Admin
+ */
+class Services extends Controller{
+    public function index()
+    {
+        return view('home_view');
+    }
+}
