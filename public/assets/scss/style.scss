@@ -162,7 +162,10 @@ $magenta-color:#813588;
         border-top-left-radius: 40px;
         border-bottom-right-radius: 40px;
         box-shadow: 2px 3px 8px $secondary-color;
-
+        &:hover {
+            transform: rotate(2deg);
+            transition: all .3s ease;
+        }
     }
     .custom-button {
         @include button-outline-color;
