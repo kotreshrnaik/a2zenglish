@@ -10,24 +10,15 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                     <img src="<?= base_url();?>/public/assets/images/slider/slide1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                    
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="<?= base_url();?>/public/assets/images/slider/slide2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    
                 </div>
                 <div class="carousel-item">
                     <img src="<?= base_url();?>/public/assets/images/slider/slide3.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+                    
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -41,5 +32,21 @@
         </div>
 
         <!-- slider ends  -->
+
+        <!-- Welcome starts  -->
+<div id="welcome" class="pt-2 pb-2 pt-md-5 pb-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h2>Welcome to A2Z ENGLISH TIPS</h2>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, delectus neque cum reprehenderit vel perferendis expedita accusamus incidunt vitae, aliquid reiciendis fugiat at. Reprehenderit iusto consequuntur nisi cum aperiam dolorem!</P>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Welcome ends  -->
+
+        
         
 <?= $this->endSection();?>

@@ -14,25 +14,25 @@
     <body>
         <!-- top-header start -->
         <div id="top-header">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row ">
                     <div class="col-md-3 align-self-center">
-                        <div class="text-center text-md-start p-2">
+                        <div class="text-center text-md-start p-1">
                             <a href="mailto:admin@a2zenglishtips.com"><i class="fas fa-envelope-open-text"></i> admin@a2zenglishtips.com</a>
                         </div>
                     </div>
                     <div class="col-md-2 align-self-center">
-                        <div class="text-center p-2">
+                        <div class="text-center p-1">
                             <a href="tel:09731564894"><i class="fas fa-phone-volume"></i> +91 97315 64894</a>
                         </div>
                     </div>
                     <div class="col-md-4 align-self-center">
                         <ul class="d-flex list-unstyled mb-0 justify-content-center">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#" id="social-media-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Social Media
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-design">Website Design</a></li>
                                     
@@ -46,10 +46,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
+                                <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
                                     Downloads
                                 </a>
-                                <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="navbarScrollingDropdown">
+                                <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="downloads-dropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
                                     
@@ -71,7 +71,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3 align-self-center">
-                        <ul class="d-flex list-unstyled mb-0 justify-content-center">
+                        <ul class="d-flex list-unstyled mb-0 justify-content-center justify-content-md-end">
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact</a>
                             </li>
@@ -88,9 +88,9 @@
         <!-- top-header-end -->
 
         <!-- navbar starts  -->
-        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="<?= base_url(); ?>"> <strong> A2Z ENGLISH TIPS</strong> <img src="<?= base_url(); ?>/public/assets/images/logo1.png" alt="" class="img-fluid"></a>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="<?= base_url(); ?>"> <img src="<?= base_url(); ?>/public/assets/images/logo2.png" alt="" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -105,10 +105,10 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Online Courses
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Spelling And Basic English Course</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -135,10 +135,10 @@
                             <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="blogs-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Blogs
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="blogs-dropdown">
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -159,13 +159,13 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-book-reader"></i>eBooks</a>
+                            <a class="nav-link" href="#">eBooks</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="more-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 More
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="more-dropdown">
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -196,7 +196,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="text-center"><img src="<?= base_url(); ?>/public/assets/images/logo2.png" alt="" class="img-fluid"></div>
-                        <address class="text-center"><strong>A2Z ENGLISH TIPS</strong> <br> 
+                        <address class="text-center"> 
                             #485, 10th Cross, 8th Main, 
                             HAL 3rd Stage, Jeevan Bhima Nagar,
                             Bengaluru-560075, Karnataka. <br>

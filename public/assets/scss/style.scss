@@ -29,6 +29,7 @@ $magenta-color:#813588;
     .dropdown-menu {
             background-color: $primary-color;
             color:$white-color;
+            z-index: 1080;
             .dropdown-item {
                 &:hover {
                     background-color: $primary-color;
@@ -41,12 +42,14 @@ $magenta-color:#813588;
 
 @media (max-width: 768px) {
     #navbar {
+        background-color: $white-color;
         .navbar-brand {
             font-size: 12px;
         }
     }
 }
 #navbar {
+    background-color: $white-color;
 
     .navbar-brand {
         color: $primary-color;
@@ -64,6 +67,7 @@ $magenta-color:#813588;
 .dropdown-menu {
     background-color: $magenta-color;
     color:$white-color;
+    
     .dropdown-item {
         color:$white-color;
         &:hover {
@@ -77,12 +81,13 @@ $magenta-color:#813588;
 
 }
 #footer {
-    background-color: $black-color;
+    background-color: $primary-color;
     ul {
         color: $white-color;
     }                                                                                             
     h2 {
         color: $secondary-color;
+        font-size: 18px;
     }
     address {
         color: $white-color;
