@@ -14,7 +14,7 @@
     <body>
         <!-- top-header start -->
         <div id="top-header">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row ">
                     <div class="col-md-3 align-self-center">
                         <div class="text-center text-md-start p-2">
@@ -89,7 +89,7 @@
 
         <!-- navbar starts  -->
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="<?= base_url(); ?>"> <strong> A2Z ENGLISH TIPS</strong> <img src="<?= base_url(); ?>/public/assets/images/logo1.png" alt="" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
