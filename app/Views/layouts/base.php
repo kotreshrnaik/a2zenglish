@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 align-self-center">
-                        <ul class="d-flex">
+                        <ul class="d-flex list-unstyled">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Social Media
@@ -35,13 +35,13 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-design">Website Design</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-developement">Website Development</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/landing-page-development">Landing Page Development</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/e-commerce-website-development">E-Commerce Website Development</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/shopify">Shopify</a></li>
                                 </ul>
                             </li>
@@ -52,26 +52,26 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-marketing">Search Engine Marketing</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/social-media-marketing">Social Media Marketing</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/pay-per-click">Pay Per Click</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/content-marketing">Content Marketing</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/e-mail-marketing">E-mail Marketing</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/whatsapp-sms-marketing">Whatsapp/SMS Marketing</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/app-promotions">App Promotions</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3 align-self-center">
-                        <ul class="d-flex">
+                        <ul class="d-flex list-unstyled">
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="far fa-address-card"></i>Contact</a>
                             </li>
