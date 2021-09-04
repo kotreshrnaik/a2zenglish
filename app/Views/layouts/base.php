@@ -16,7 +16,7 @@
         <div id="top-header">
             <div class="container">
                 <div class="row ">
-                    <div class="col-md-2 align-self-center">
+                    <div class="col-md-3 align-self-center">
                         <div class="text-center text-md-start p-2">
                             <a href="mailto:admin@a2zenglishtips.com"><i class="fas fa-envelope-open-text"></i> admin@a2zenglishtips.com</a>
                         </div>
@@ -26,30 +26,62 @@
                             <a href="tel:09731564894"><i class="fas fa-phone-volume"></i> +91 97315 64894</a>
                         </div>
                     </div>
-                    <div class="col-md-2 align-self-center">
-                        <div class="text-center text-md-end p-2">
-                            <a href=""><i class="fas fa-sign-in-alt"></i> Login</a>
-                        </div>
+                    <div class="col-md-4 align-self-center">
+                        <ul class="d-flex">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Social Media
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-                    </div>
-                    <div class="col-md-2 align-self-center">
-                        <div class="text-center text-md-end p-2">
-                            <a href=""><i class="fas fa-book-reader"></i> E-Books</a>
-                        </div>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-design">Website Design</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-developement">Website Development</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/landing-page-development">Landing Page Development</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/e-commerce-website-development">E-Commerce Website Development</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/shopify">Shopify</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
+                                    Downloads
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-marketing">Search Engine Marketing</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/social-media-marketing">Social Media Marketing</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/pay-per-click">Pay Per Click</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/content-marketing">Content Marketing</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/e-mail-marketing">E-mail Marketing</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/whatsapp-sms-marketing">Whatsapp/SMS Marketing</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/app-promotions">App Promotions</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-2 align-self-center">
-                        <div class="text-center text-md-end p-2">
-                            <a href=""><i class="fas fa-book-reader"></i> Downloads</a>
-                        </div>
+                    <div class="col-md-3 align-self-center">
+                        <ul class="d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="far fa-address-card"></i>Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
 
-                    </div>
-                    <div class="col-md-2 align-self-center">
-                        <div class="text-center text-md-end p-2">
-                            <a href=""><i class="fas fa-book-reader"></i> Contact</a>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -62,6 +94,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -70,21 +103,77 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Online Course</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Online Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Spelling And Basic English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">English Grammar Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Spoken English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Translation Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Cursive Handwriting Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Objective English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Jobs Skills Training Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Essay Writing Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Build Your Vocabulary Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Precis Writing Course</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blogs</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/spoken-english">Spoken English</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/parts-of-speech">Parts Of Speech</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/vocabulary">Vocabulary</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/translation">Translation</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/objective-english">Objective English</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/interview">Jobs Interview</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/essays">Essays</a></li>
+
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Social Media</a>
+                            <a class="nav-link" href="#"><i class="fas fa-book-reader"></i>eBooks</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">More</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/spoken-english">Spoken English</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/parts-of-speech">Parts Of Speech</a></li>
+
+                            </ul>
                         </li>
 
                     </ul>
@@ -98,8 +187,8 @@
 
         <!-- navbar ends  -->
 
-        
-<?= $this->renderSection("content"); ?>
+
+        <?= $this->renderSection("content"); ?>
 
         <!--Footer starts -->
         <footer id="footer" class="pt-2 pb-2 pt-md-2 pb-md-2">

@@ -19,10 +19,16 @@ $magenta-color:#813588;
         text-decoration: none;
         color:$white-color;
         
+        
         &:hover {
             color: $secondary-color;
-            transform: scale(1.5);
+            transform: scale(1.1);
             transition: all 0.3s ease;
+        }
+    }
+    .nav-item {
+        a {
+            text-decoration: none;
         }
     }
 }
