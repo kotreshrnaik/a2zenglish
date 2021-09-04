@@ -1,0 +1,66 @@
+$primary-color:#003153;
+$secondary-color:#f5a201;
+$white-color:white;
+$black-color:#000;
+$magenta-color:#813588;
+
+@mixin button-color {
+    color: $white-color;
+    background-color: $magenta-color;
+    &:hover {
+        color: $white-color;
+        background-color: $primary-color;
+    }
+}
+#top-header {
+    
+    background-color: $primary-color;
+    a {
+        text-decoration: none;
+        color:$white-color;
+        
+        &:hover {
+            color: $secondary-color;
+            transform: scale(1.5);
+            transition: all 0.3s ease;
+        }
+    }
+}
+#navbar {
+
+.nav-link {
+    color: $white-color;
+    background-color: $magenta-color;
+    padding: 10px 12px;
+    &:hover {
+        color: $white-color;
+        background-color: $primary-color;
+    }
+}
+
+.search-btn {
+    @include button-color;
+}
+
+}
+#footer {
+    background-color: $black-color;
+    ul {
+        color: $white-color;
+    }                                                                                             
+    h2 {
+        color: $secondary-color;
+    }
+    address {
+        color: $white-color;
+    }
+    a {
+        text-decoration: none;
+        color: $white-color;
+        &:hover {
+            color: $secondary-color;
+        }
+             
+    }
+    
+}

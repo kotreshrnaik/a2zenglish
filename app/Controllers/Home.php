@@ -7,7 +7,7 @@ class Home extends Controller
 {
 	public function index()
 	{
-		echo "Welcome to A2Z ENGLISH TIPS";
+		
                 return view('home_view');
 	}
         public function about()
