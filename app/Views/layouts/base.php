@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 align-self-center">
-                        <ul class="d-flex list-unstyled">
+                        <ul class="d-flex list-unstyled mb-0 justify-content-center">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Social Media
@@ -49,7 +49,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
                                     Downloads
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="navbarScrollingDropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
                                     
@@ -71,12 +71,12 @@
                         </ul>
                     </div>
                     <div class="col-md-3 align-self-center">
-                        <ul class="d-flex list-unstyled">
+                        <ul class="d-flex list-unstyled mb-0 justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="far fa-address-card"></i>Contact</a>
+                                <a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
+                                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +90,7 @@
         <!-- navbar starts  -->
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <div class="container">
-                <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url(); ?>/public/assets/images/logo1.png" alt="" class="img-fluid"></a>
+                <a class="navbar-brand" href="<?= base_url(); ?>"> <strong> A2Z ENGLISH TIPS</strong> <img src="<?= base_url(); ?>/public/assets/images/logo1.png" alt="" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

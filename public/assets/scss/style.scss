@@ -38,8 +38,19 @@ $magenta-color:#813588;
     
     
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        .navbar-brand {
+            font-size: 12px;
+        }
+    }
+}
 #navbar {
 
+    .navbar-brand {
+        color: $primary-color;
+    }
 .nav-link {
     color: $white-color;
     background-color: $magenta-color;
