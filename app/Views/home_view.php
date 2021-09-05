@@ -39,7 +39,16 @@
         <div class="row">
             <div class="col-md-12">
 
-                <h2>Welcome to A2Z ENGLISH TIPS</h2>
+                <h2 class="text-center">Welcome to A2Z ENGLISH TIPS</h2>
+                <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h4 class="side-line text-center">
+                    <span class="line"><i class="fas fa-book-reader"></i></span>
+                </h4>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
                 <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, delectus neque cum reprehenderit vel perferendis expedita accusamus incidunt vitae, aliquid reiciendis fugiat at. Reprehenderit iusto consequuntur nisi cum aperiam dolorem!</P>
             </div>
         </div>
