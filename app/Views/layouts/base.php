@@ -34,15 +34,14 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-design">Website Design</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/youtube-channel">Youtube</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/website-developement">Website Development</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/facebookpage">Facebook Page</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/landing-page-development">Landing Page Development</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/instagram">Instagram</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/e-commerce-website-development">E-Commerce Website Development</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/spotify">Spotify</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/website-solutions/shopify">Shopify</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -51,21 +50,21 @@
                                 </a>
                                 <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="downloads-dropdown">
 
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">English Grammar</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/search-engine-marketing">Search Engine Marketing</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/spoken-english">Spoken English</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/social-media-marketing">Social Media Marketing</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/parts-of-speech">Parts Of Speech</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/pay-per-click">Pay Per Click</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/vocabulary">Vocabulary</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/content-marketing">Content Marketing</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/translation">Translation</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/e-mail-marketing">E-mail Marketing</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/objective-english">Objective English</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/whatsapp-sms-marketing">Whatsapp/SMS Marketing</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/interview">Interview Q&A</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/digital-marketing-services/app-promotions">App Promotions</a></li>
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">Essays</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -140,7 +139,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="blogs-dropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/english-grammar">English Grammar</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/spoken-english">Spoken English</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -167,11 +166,10 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="more-dropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/grammar">Grammar</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/english-charts">English Charts</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/spoken-english">Spoken English</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/parts-of-speech">Parts Of Speech</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/students-doubts">Students' Doubts</a></li>
+                                
 
                             </ul>
                         </li>
@@ -209,16 +207,26 @@
                                 <li><a href="<?= base_url(); ?>">Home</a></li>
                                 <li><a href="<?= base_url(); ?>/about">About</a></li>
                                 <li><a href="<?= base_url(); ?>/contact">Contact</a></li>
-                                <li><a href="<?= base_url(); ?>/blog">Blogs</a></li>
+                                <li><a href="<?= base_url(); ?>/blogs">Blogs</a></li>
+                                <li><a href="<?= base_url(); ?>/downloads">Downloads</a></li>
+                                <li><a href="<?= base_url(); ?>/">eBooks</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
                         <h2 class="pt-2 pt-2">Online Courses</h2>
                         <ul>
-                            <li><a href="">Design Solutions</a></li>
-                            <li><a href="">Website Solutions</a></li>
-                            <li><a href="">Digital Marketing Services</a></li>
+                            <li><a href="<?= base_url(); ?>/"></a>Spelling And BasicEnglish Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>English Grammar Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Spoken English Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Translation Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Cursive Handwriting Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Objective English Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Jobs Skills Training Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Essay Writing Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Build Your Vocabulary Course</li>
+                            <li><a href="<?= base_url(); ?>/"></a>Precis Writing Course</li>
+
                         </ul>
                     </div>
                     <div class="col-md-3">

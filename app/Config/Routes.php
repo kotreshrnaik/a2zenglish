@@ -36,8 +36,9 @@ $routes->get('/', 'Home::index');
 
 $myroutes = [];
 $myroutes ['about'] = 'Home::about';
+$myroutes ['contact'] = 'Home::contact';
 
-$myroutes ['/downloads/grammar'] = 'Downloads::Grammar';
+$myroutes ['/downloads/english-grammar'] = 'Downloads::EnglishGrammar';
 $myroutes ['/downloads/spoken-english'] = 'Downloads::SpokenEnglish';
 $myroutes ['/downloads/parts-of-speech'] = 'Downloads::PartsOfSpeech';
 $myroutes ['/downloads/vocabulary'] = 'Downloads::Vocabulary';
@@ -57,7 +58,7 @@ $myroutes ['/onlinecourses/essay-writing-course'] = 'Onlinecourses::EssayWriting
 $myroutes ['/onlinecourses/build-your-vocabulary-course'] = 'Onlinecourses::BuildYourVocabularyCourse';
 $myroutes ['/onlinecourses/precis-writing-course'] = 'Onlinecourses::PrecisWritingCourse';
 
-$myroutes ['/blogs/grammar'] = 'Blogs::Grammar';
+$myroutes ['/blogs/english-grammar'] = 'Blogs::EnglishGrammar';
 $myroutes ['/blogs/spoken-english'] = 'Blogs::SpokenEnglish';
 $myroutes ['/blogs/parts-of-speech'] = 'Blogs::PartsOfSpeech';
 $myroutes ['/blogs/vocabulary'] = 'Blogs::Vocabulary';
@@ -66,7 +67,7 @@ $myroutes ['/blogs/objective-english'] = 'Blogs::ObjectiveEnglish';
 $myroutes ['/blogs/interview'] = 'Blogs::InterviewQandA';
 $myroutes ['/blogs/essays'] = 'Blogs::Essays';
 
-$myroutes ['/more/contact'] = 'More::Contact';
+
 $myroutes ['/more/english-charts'] = 'More::EnglishCharts';
 $myroutes ['/more/students-doubts'] = 'More::StudentsDoubts';
 

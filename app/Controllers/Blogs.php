@@ -17,9 +17,9 @@ class Blogs extends Controller{
     {
         return view('home_view');
     }
-    public function Grammar()
+    public function EnglishGrammar()
     {
-        return view('blogs/grammar_view');
+        return view('blogs/englishgrammar_view');
     }
     public function SpokenEnglish()
     {

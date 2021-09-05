@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">English Grammar</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong class="date">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">Spoken English</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">Parts of Speech</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">Vocabulary</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">Translation</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -165,7 +165,41 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
+                            <h5 class="pt-2 pb-2">Objective English</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Jobs Interview</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Essays</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
@@ -205,7 +239,7 @@
                             <h5 class="pt-2 pb-2">Spelling And BasicEnglish Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.1000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -226,7 +260,7 @@
                             <h5 class="pt-2 pb-2">English Grammar Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.6000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -247,7 +281,7 @@
                             <h5 class="pt-2 pb-2">Spoken English Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.6000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -268,7 +302,7 @@
                             <h5 class="pt-2 pb-2">Translation Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.2000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -289,7 +323,7 @@
                             <h5 class="pt-2 pb-2">Cursive Handwriting Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.1000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -310,7 +344,7 @@
                             <h5 class="pt-2 pb-2">Objective English Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.2000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -352,7 +386,7 @@
                             <h5 class="pt-2 pb-2">Essay Writing Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.1000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -373,7 +407,7 @@
                             <h5 class="pt-2 pb-2">Build Your Vocabulary Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.1000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
@@ -394,7 +428,7 @@
                             <h5 class="pt-2 pb-2">Precis Writing Course</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <h5 class="pt-2 pb-2">Rs.1000/-</h5>
                             <a href="#" class="btn custom-button">Buy Course</a>
 
                         </div>
