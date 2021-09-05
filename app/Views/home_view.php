@@ -81,7 +81,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong class="date">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -166,7 +166,7 @@
                         </div>
                         <div class="col-md-8">
                             <h5 class="pt-2 pb-2">Introduction to Shanthas Webz</h5>
-                            <strong><?= date('Y-m-d') ?></strong>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#" class="btn custom-button">Continue Reading... </a>
                         </div>
@@ -178,5 +178,236 @@
 </div>
 <!-- Daily learning ends -->
 
+<!-- Online courses starts -->
+<div id="online-courses" class="pt-2 pb-2 pt-md-5 pb-md-5">
+    <div class="container">
+        <h2 class="text-center pt-2 pb-2"> Online Courses </h2>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h4 class="side-line text-center">
+                    <span class="line"><i class="fas fa-book-reader"></i></span>
+                </h4>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Spelling And BasicEnglish Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">English Grammar Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.6000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Spoken English Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.6000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Translation Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Cursive Handwriting Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Objective English Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Jobs Skills Training Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Essay Writing Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Build Your Vocabulary Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="small-blog m-2 p-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blogs/blog.png" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="pt-2 pb-2">Precis Writing Course</h5>
+                            <strong class="date"><?= date('Y-m-d') ?></strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h5 class="pt-2 pb-2">Rs.3000/-</h5>
+                            <a href="#" class="btn custom-button">Buy Course</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</div>
+<!-- Online courses starts -->
 
 <?= $this->endSection(); ?>
