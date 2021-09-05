@@ -189,7 +189,7 @@ $magenta-color:#813588;
     h2 {
         color: $primary-color;
     }
-    @include book-reading-icon($white-color, $white-color, $secondary-color);
+    @include book-reading-icon($primary-color, $primary-color,$white-color);
     .small-blog {
         h5 {
             color: $white-color;
