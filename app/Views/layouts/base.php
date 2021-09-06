@@ -18,7 +18,7 @@
                 <div class="row ">
                     <div class="col-md-3 align-self-center">
                         <div class="text-center text-md-start p-1">
-                            <a href="mailto:admin@a2zenglishtips.com"><i class="fas fa-envelope-open-text"></i> admin@a2zenglishtips.com</a>
+                            <a href="mailto:a2zenglishtips@gmail.com"><i class="fas fa-envelope-open-text"></i> a2zenglishtips@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-md-2 align-self-center">
@@ -244,6 +244,21 @@
                 </div>
             </div>
         </footer>
+
+        
+        <!--Start of Tawk.to Script-->
+        <!-- <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/6135db77d6e7610a49b3d923/1fet62jjs';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script> -->
+        <!--End of Tawk.to Script-->
 
         <!-- Optional JavaScript; choose one of the two! -->
 
