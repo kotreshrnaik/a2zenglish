@@ -156,7 +156,7 @@ $magenta-color:#813588;
     h2 {
         color: $white-color;
     }
-    
+
     @include book-reading-icon($white-color, $white-color, $primary-color);
     .small-blog {
         p {
@@ -185,7 +185,7 @@ $magenta-color:#813588;
 }
 #online-courses {
     // background-color: $secondary-color;
-    
+
     h2 {
         color: $primary-color;
     }
