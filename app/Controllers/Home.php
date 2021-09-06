@@ -14,8 +14,8 @@ class Home extends Controller
         {
             return view ('about_view');
         }
-        public function more()
+        public function contact()
         {
-            return view ('more_view');
+            return view ('contact_view');
         }
 }
