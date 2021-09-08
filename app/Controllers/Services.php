@@ -16,6 +16,6 @@ use CodeIgniter\Controller;
 class Services extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('/services/services_view');
     }
 }

@@ -15,11 +15,11 @@ use CodeIgniter\Controller;
 class Downloads extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('/downloads/downloads_view');
     }
-    public function Grammar()
+    public function EnglishGrammar()
     {
-        return view('downloads/grammar_view');
+        return view('downloads/englishgrammar_view');
     }
     public function SpokenEnglish()
     {

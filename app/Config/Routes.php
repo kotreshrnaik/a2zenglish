@@ -38,6 +38,7 @@ $myroutes = [];
 $myroutes ['about'] = 'Home::about';
 $myroutes ['contact'] = 'Home::contact';
 
+$myroutes ['/downloads'] = 'Downloads::index';
 $myroutes ['/downloads/english-grammar'] = 'Downloads::EnglishGrammar';
 $myroutes ['/downloads/spoken-english'] = 'Downloads::SpokenEnglish';
 $myroutes ['/downloads/parts-of-speech'] = 'Downloads::PartsOfSpeech';
@@ -47,6 +48,7 @@ $myroutes ['/downloads/objective-english'] = 'Downloads::ObjectiveEnglish';
 $myroutes ['/downloads/interview'] = 'Downloads::InterviewQandA';
 $myroutes ['/downloads/essays'] = 'Downloads::Essays';
 
+$myroutes ['/onlinecourses'] = 'Onlinecourses::index';
 $myroutes ['/onlinecourses/spelling-and-basic-english-course'] = 'Onlinecourses::SpellingAndBasicEnglishCourse';
 $myroutes ['/onlinecourses/english-grammar-course'] = 'Onlinecourses::EnglishGrammarCourse';
 $myroutes ['/onlinecourses/spoken-english-course'] = 'Onlinecourses::SpokenEnglishCourse';
@@ -58,6 +60,7 @@ $myroutes ['/onlinecourses/essay-writing-course'] = 'Onlinecourses::EssayWriting
 $myroutes ['/onlinecourses/build-your-vocabulary-course'] = 'Onlinecourses::BuildYourVocabularyCourse';
 $myroutes ['/onlinecourses/precis-writing-course'] = 'Onlinecourses::PrecisWritingCourse';
 
+$myroutes ['/blogs'] = 'Blogs::index';
 $myroutes ['/blogs/english-grammar'] = 'Blogs::EnglishGrammar';
 $myroutes ['/blogs/spoken-english'] = 'Blogs::SpokenEnglish';
 $myroutes ['/blogs/parts-of-speech'] = 'Blogs::PartsOfSpeech';
@@ -67,18 +70,20 @@ $myroutes ['/blogs/objective-english'] = 'Blogs::ObjectiveEnglish';
 $myroutes ['/blogs/interview'] = 'Blogs::InterviewQandA';
 $myroutes ['/blogs/essays'] = 'Blogs::Essays';
 
-
+$myroutes ['/more'] = 'More::index';
 $myroutes ['/more/english-charts'] = 'More::EnglishCharts';
 $myroutes ['/more/students-doubts'] = 'More::StudentsDoubts';
+$myroutes ['/more/gallery'] = 'More::Gallery';
 
+$myroutes ['/socialmedia'] = 'Socialmedia::index';
 $myroutes ['/socialmedia/youtube-channel'] = 'Socialmedia::Youtube';
-$myroutes ['/socialmedia/facebookpage'] = 'Socialmedia::FacebookPage';
+$myroutes ['/socialmedia/facebook-page'] = 'Socialmedia::FacebookPage';
 $myroutes ['/socialmedia/instagram'] = 'Socialmedia::Instagram';
 $myroutes ['/socialmedia/spotify'] = 'Socialmedia::Spotify';
 
-$myroutes ['/ebooks/'] = 'EBooks::';
+$myroutes ['/eBooks'] = 'EBooks::index';
 
-$myroutes ['/services/'] = 'Services::';
+$myroutes ['/services/services'] = 'Services::Services';
 
 $routes->map($myroutes);
 /*

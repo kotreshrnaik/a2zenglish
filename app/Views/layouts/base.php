@@ -72,7 +72,7 @@
                     <div class="col-md-3 align-self-center">
                         <ul class="d-flex list-unstyled mb-0 justify-content-center justify-content-md-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact</a>
+                                <a class="nav-link" href="<?= base_url(); ?>/contact"><i class="far fa-address-card"></i> Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
@@ -97,14 +97,14 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="<?= base_url();?>/about">About</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Online Courses
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
@@ -131,7 +131,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/services">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="blogs-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -151,14 +151,14 @@
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/objective-english">Objective English</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/interview">Jobs Interview</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/interview">Interview</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/blogs/essays">Essays</a></li>
 
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">eBooks</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/eBooks">eBooks</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="more-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -169,7 +169,8 @@
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/more/english-charts">English Charts</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/more/students-doubts">Students' Doubts</a></li>
-                                
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/more/gallery">Gallery</a></li>
 
                             </ul>
                         </li>
@@ -209,7 +210,9 @@
                                 <li><a href="<?= base_url(); ?>/contact">Contact</a></li>
                                 <li><a href="<?= base_url(); ?>/blogs">Blogs</a></li>
                                 <li><a href="<?= base_url(); ?>/downloads">Downloads</a></li>
-                                <li><a href="<?= base_url(); ?>/">eBooks</a></li>
+                                <li><a href="<?= base_url(); ?>/ebooks">eBooks</a></li>
+                                <li><a href="<?= base_url(); ?>/onlinecourses">Online Courses</a></li>
+                                <li><a href="<?= base_url(); ?>/socialmedia">Social Media</a></li>
                             </ul>
                         </div>
                     </div>

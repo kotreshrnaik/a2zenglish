@@ -15,6 +15,6 @@ use CodeIgniter\Controller;
 class EBooks extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('/eBooks/ebooks_view');
     }
 }

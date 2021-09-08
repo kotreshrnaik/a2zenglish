@@ -15,7 +15,7 @@ use CodeIgniter\Controller;
 class Socialmedia extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('socialmedia/socialmedia_view');
     }
     public function Youtube()
     {

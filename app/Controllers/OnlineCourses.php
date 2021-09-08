@@ -16,7 +16,7 @@ use CodeIgniter\Controller;
 class Onlinecourses extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('/onlinecourses/onlinecourses_view');
     }
     public function SpellingAndBasicEnglishCourse()
     {

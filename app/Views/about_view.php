@@ -1,6 +1,7 @@
 <?= $this->extend('layouts/base'); ?>
 <?= $this->Section('content'); ?>
-<div id="about-header" class="pt-2 pb-2 pt-md-5 pb-md-5">
+<!-- common header starts -->
+<div id="common-header" class="pt-2 pb-2 pt-md-5 pb-md-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -19,6 +20,7 @@
         </div>
     </div>
 </div>
+<!-- common header ends -->
 <div id="about-content" class="pt-2 pb-2 pt-md-5 pb-md-2">
     <div class="container">
         <div class="row">

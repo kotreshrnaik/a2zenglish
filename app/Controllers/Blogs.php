@@ -15,7 +15,7 @@ use CodeIgniter\Controller;
 class Blogs extends Controller{
     public function index()
     {
-        return view('home_view');
+        return view('blogs/blogs_view');
     }
     public function EnglishGrammar()
     {

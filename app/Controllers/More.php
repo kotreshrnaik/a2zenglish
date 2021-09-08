@@ -16,11 +16,7 @@ use CodeIgniter\Controller;
 class More extends Controller{
     public function index()
     {
-        return view('home_view');
-    }
-    public function Contact()
-    {
-        return view('more/contact_view');
+        return view('more/more_view');
     }
     public function EnglishCharts()
     {
@@ -29,6 +25,10 @@ class More extends Controller{
     public function StudentsDoubts()
     {
         return view('more/studentsdoubts_view');
+    }
+    public function Gallery()
+    {
+        return view('more/gallery_view');
     }
     
 }
