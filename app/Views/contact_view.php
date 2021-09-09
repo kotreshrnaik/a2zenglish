@@ -52,26 +52,32 @@
             </div>
             <div class="col-md-6">
             <h1 class="text-center">How can I help you?</h1>
-            <?php if(isset($validation)): ?>
-                <?php endif; ?>
+            <!-- <?php if(isset($validation)): ?>
+                <div class="alert alert-danger"><?= $validation->listErrors();?></div>
+                <?php endif; ?> -->
+
                 <?= form_open(); ?>
-                <div class="form-froup">
+                <div class="form-group">
                     <label for="">Name</label>
                     <input type='text' name='uname' class="form-control" value='<?= set_value('uname') ?>'>
+                    <span class='text-danger'><?= display_error($validation, 'uname');?></span>
                 </div>
-                <div class="form-froup">
+                <div class="form-group">
                     <label for="">E-Mail</label>
                     <input type='text' name='email' class="form-control" value='<?= set_value('email') ?>'>
+                    <span class='text-danger'><?= display_error($validation, 'email');?></span>
                 </div>
-                <div class="form-froup">
+                <div class="form-group">
                     <label for="">Contact Number</label>
                     <input type='text' name='mobile' class="form-control" value='<?= set_value('mobile') ?>'>
+                    <span class='text-danger'><?= display_error($validation, 'mobile');?></span>
                 </div>
-                <div class="form-froup">
+                <div class="form-group">
                     <label for="">Message</label>
                     <textarea name='msg' class="form-control" value='<?= set_value('msg') ?>'></textarea>
+                    <span class='text-danger'><?= display_error($validation, 'msg');?></span>
                 </div>
-                <div class="form-froup">
+                <div class="form-group">
 
                     <input type='submit' name='save' class="custom-button" value='Send'>
                 </div>
