@@ -6,7 +6,7 @@ use App\Models\ContactModel;
 
 class Home extends Controller
 {
-    public $ContactModel;
+        public $ContactModel;
         public function __construct() {
             helper ('form');
             $this->$ContactModel = new ContactModel();
