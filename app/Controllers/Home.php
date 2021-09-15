@@ -2,14 +2,13 @@
 
 namespace App\Controllers;
 use \CodeIgniter\Controller;
-use App\Models\ContactModel;
 
 class Home extends Controller
 {
-        public $ContactModel;
+        
         public function __construct() {
             helper ('form');
-            $this->$ContactModel = new ContactModel();
+            
         }
         
 	public function index()
@@ -41,7 +40,7 @@ class Home extends Controller
                         'mobile'=>$this->request->getVar('mobile',FILTER_SANITIZE_STRING),
                         'massage'=>$this->request->getVar('msg',FILTER_SANITIZE_STRING),
                     ];
-                    $this->$ContactModel->saveData($cdata);
+                    
                             
                 }
                 else {
