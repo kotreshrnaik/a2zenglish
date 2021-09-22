@@ -55,6 +55,19 @@
     </div>
 </div>
 <!-- Welcome ends  -->
+<!-- Intor of A2Z ENGLISH TIPS STARTS -->
+<!-- <div id="intro" class="pt-2 pb-2 pt-md-5 pb-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+</div> -->
+
+<!-- Intor of A2Z ENGLISH TIPS ends -->
 
 <!-- Daily learning starts -->
 <div id="learnonlinedaily" class="pt-2 pb-2 pt-md-5 pb-md-5">

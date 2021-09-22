@@ -176,10 +176,10 @@
                         </li>
 
                     </ul>
-                    <form class="search d-flex">
+                    <!-- <form class="search d-flex">
                         <input class="form-control  ms-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn search-btn" type="submit">Search</button>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </nav>
