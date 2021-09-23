@@ -34,13 +34,13 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/youtube-channel">Youtube</a></li>
+                                    <li><a class="dropdown-item" href="https://www.youtube.com/c/a2zenglishtips/">Youtube</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/facebookpage">Facebook Page</a></li>
+                                    <li><a class="dropdown-item" href="https://www.facebook.com/english.tips.73157">Facebook Page</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/instagram">Instagram</a></li>
+                                    <li><a class="dropdown-item" href="https://www.instagram.com/a2zenglishtips">Instagram</a></li>
                                     
-                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/spotify">Spotify</a></li>
+                                    <li><a class="dropdown-item" href="https://t.me/joinchat/eMVGpR68vzU3ZWY1">Telegram</a></li>
                                     
                                 </ul>
                             </li>
@@ -236,11 +236,11 @@
                         <h2 class="pt-2 pb-2 text-center text-md-start">Social Media</h2>
                         <div class="align-self-center col-md-4">
                             <div class="text-center p-2 fs-5">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/english.tips.73157"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/tips_a2z"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/c/a2zenglishtips/"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/a2zenglishtips"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/a2z-english-tips/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
