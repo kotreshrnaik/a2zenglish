@@ -48,9 +48,36 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
+                                    Competitive English
+                                </a>
+                                <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="downloads-dropdown">
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">UPSC Compulsory English</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/spoken-english">KAS Compulsory English</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/parts-of-speech">English for SSC, RRB & IBPS (NRA-CET)</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/vocabulary">English for CDS, NDA</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/translation">English for SCRA, CAT, MAT & MBA Entrance Exams</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/objective-english">English for Insurance Exams (LIC, GIC...)</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/interview">English for state Police (Delhi, Bihar, Telangana ... etc.)</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">English for TET & CET</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">English for Army, Navy & Airforce Exams</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
                                     Downloads
                                 </a>
                                 <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="downloads-dropdown">
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">Previous Year Question Papers</a></li>
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">English Grammar</a></li>
                                     
@@ -81,8 +108,6 @@
                             </li>
                         </ul>
                     </div>
-                    
-
                 </div>
             </div>
         </div>
@@ -130,6 +155,64 @@
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Build Your Vocabulary Course</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Precis Writing Course</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Test Series
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Spelling And Basic English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">English Grammar Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Spoken English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Translation Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Cursive Handwriting Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Objective English Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Jobs Skills Training Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Essay Writing Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Build Your Vocabulary Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Precis Writing Course</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Academic English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course">Class-12-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/english-grammar-course">Class-11-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/spoken-english-course">Class-10-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/translation-course">Class-9-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course">Class-8-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/objective-english-course">Class-7-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course">Class-6-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/essay-writing-course">Class-5-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Class-4-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Class-3-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course">Class-2-English NCERT Solutions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/onlinecourses/precis-writing-course">Class-1-English NCERT Solutions</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

@@ -150,6 +150,22 @@ $tertiary-color:#813588;
     }
     @include book-reading-icon($primary-color, $primary-color, $white-color);
 }
+#whats-new{
+    background-color: $secondary-color;
+    .btn{
+        @include button-color;
+    }
+    .card-body{
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+    a {
+        text-decoration:none;
+        color:$white-color;
+        font-size: 14px;
+    }
+
+}
 #learnonlinedaily {
     background-color: $primary-color;
 

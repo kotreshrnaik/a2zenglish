@@ -33,53 +33,33 @@
 <div id="about-team" class="pt-2 pb-2 pt-md-5 pb-md-5">
     <div class="container">
         <div class="text-center">
-            <h2 class="pt-2 pb-2">Our Team</h2>
+            <h2 class="pt-2 pb-2">Our Director</h2>
         </div>
         <div class="row">
-        <div class="col-md-3">
+            <div class="col-md-3">
                 <div class="card text-center">
-                    <h5 class="pt-2 pb-2">Praveen P Nandinervanda</h5>
+                    <h2 class="pt-2 pb-2">Director</h2>
                     <img src="<?= base_url();?>/public/assets/images/team/t1.png" class="" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">CEO</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h3 class="card-title">Kotresh R. Naik</h3>
+                        <h5 class="text-end">M.Tech</h5>
+                        <p class="card-text">Author - Corporate Trainer - Motivational Speaker - UI Developer</p>
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-9">
                 <div class="card  text-center">
-                    <h5 class="pt-2 pb-2">Chetan Kumar N.</h5>
-                    <img src="<?= base_url();?>/public/assets/images/team/t1.png" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CEO</h5>
+                    <h5 class="pt-2 pb-2">About Director</h5>
+                    <!-- <img src="<?= base_url();?>/public/assets/images/team/t1.png" class="" alt="..."> -->
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">CEO</h5> -->
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
+                    <!-- </div> -->
 
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card text-center">
-                    <h5 class="pt-2 pb-2">Srinivas Mohanraj</h5>
-                    <img src="<?= base_url();?>/public/assets/images/team/t1.png" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CEO</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center">
-                    <h5 class="pt-2 pb-2">Kotresh R. Naik</h5>
-                    <img src="<?= base_url();?>/public/assets/images/team/t1.png" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CEO</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>

@@ -55,17 +55,115 @@
     </div>
 </div>
 <!-- Welcome ends  -->
+<!-- Whats new starts -->
+<div id="whats-new">
+    <div class="container pt-2 pb-2 pt-md-5 pb-d-5">
+        <div class="row">
+            <p>
+                <a class="btn" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Inspire before your expire</a>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Learn English Daily</button>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">UPSC Compulsory English</button>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">KAS Compulsory English</button>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">What's New</button>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3 multiCollapseExample4 multiCollapseExample5">See All</button>
+            </p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                                <h4 class="side-line pt-3 pb-3 text-center">
+                                    <span class="line">Inspire before your expire</span>
+
+                                </h4>
+                            <i>In a day, if you don't come across any problem, make sure that you are travelling in a wrong path.</i> <br> <strong>_APJ Abdul Kalam</strong>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            <div class="pt-3 pb-3">
+                                <h4 class="side-line pt-3 pb-3 text-center">
+                                    <span class="line">Learn English Daily</span>
+                                </h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">1. A2Z Vocab Made Easy Daily</a></li>
+                                    <li><a href="#">2. A2Z Phrasal Verbs Made Easy Daily</a></li>
+                                    <li><a href="#">3. A2Z Idioms Made Easy Daily</a></li>
+                                    <li><a href="#">4. A2Z Root Words Made Easy Daily</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                        <div class="card card-body">
+                        <div class="pt-3 pb-3">
+                                <h4 class="side-line pt-3 pb-3 text-center">
+                                    <span class="line">UPSC Compulsory English</span>
+
+                                </h4>
+                                <ul class="list-unstyled">
+                                    <li>Syllabus-<a href="https://www.upsc.gov.in/exams-related-info/exam-notification">Click Here</a></li>
+                                    <li>Materials-<a href="https://www.upsc.gov.in/exams-related-info/exam-notification">Click Here</a></li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                        <div class="card card-body">
+                        <div class="pt-3 pb-3">
+                                <h4 class="side-line pt-3 pb-3 text-center">
+                                    <span class="line">KAS Compulsory English</span>
+                                </h4>
+                                <ul class="list-unstyled">
+                                    <li>Syllabus-<a href="#">Download</a></li>
+                                    <li>Materials-<a href="#">Download</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample5">
+                        <div class="card card-body">
+                            <div class="pt-3 pb-3">
+                                <h4 class="side-line pt-3 pb-3 text-center">
+                                    <span class="line">What's New</span>
+                                </h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">1. A2Z Vocab Made Easy Daily</a></li>
+                                    <li><a href="#">2. A2Z Phrasal Verbs Made Easy Daily</a></li>
+                                    <li><a href="#">3. A2Z Idioms Made Easy Daily</a></li>
+                                    <li><a href="#">4. A2Z Root Words Made Easy Daily</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Whats new ends  -->
 <!-- Intor of A2Z ENGLISH TIPS STARTS -->
-<div id="intro" class="pt-2 pb-2 pt-md-5 pb-md-5">
+<!-- <div id="intro" class="pt-2 pb-2 pt-md-5 pb-md-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6 ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCsXCN_Ibeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/viOE5SZI4AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6"></div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Intor of A2Z ENGLISH TIPS ends -->
 
@@ -96,7 +194,7 @@
                             <h5 class="pt-2 pb-2">English Grammar</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong class="date">
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/english-grammar" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +211,7 @@
                             <h5 class="pt-2 pb-2">Spoken English</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/spoken-english" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +228,7 @@
                             <h5 class="pt-2 pb-2">Parts of Speech</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/parts-of-speech" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +245,7 @@
                             <h5 class="pt-2 pb-2">Vocabulary</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/vocabulary" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +262,7 @@
                             <h5 class="pt-2 pb-2">Translation</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/translation" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +279,7 @@
                             <h5 class="pt-2 pb-2">Objective English</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/objective-english" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +296,7 @@
                             <h5 class="pt-2 pb-2">Jobs Interview</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/interview" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +313,7 @@
                             <h5 class="pt-2 pb-2">Essays</h5>
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
-                            <a href="#" class="btn custom-button">Continue Reading... </a>
+                            <a href="<?= base_url(); ?>/blogs/essays" class="btn custom-button">Continue Reading... </a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +351,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.1000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -274,7 +372,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.3000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/english-grammar-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -295,7 +393,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.3000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/spoken-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -316,7 +414,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.2000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/translation-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -337,7 +435,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.1000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -358,7 +456,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.2000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/objective-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -379,7 +477,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.3000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -400,7 +498,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.1000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/essay-writing-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -421,7 +519,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.1000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         
@@ -442,7 +540,7 @@
                             <strong class="date"><?= date('Y-m-d') ?></strong>
                             <p>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS.</p>
                             <h5 class="pt-2 pb-2">Rs.1000/-</h5>
-                            <a href="#" class="btn custom-button">Buy Course</a>
+                            <a href="<?= base_url(); ?>/onlinecourses/precis-writing-course" class="btn custom-button">Buy Course</a>
 
                         </div>
                         

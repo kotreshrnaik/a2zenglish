@@ -49,6 +49,7 @@
             <div class="col-md-4"></div>
         </div>
                 <P>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS. This channel will help you to learn English and improve your Pronunciation, Grammar, Spoken English, Communication Skills, Interview Skills, Life Skills, Motivations and vocabulary knowledge.</P>
+                <h2>Coming soon...</h2>
             </div>
         </div>
     </div>
