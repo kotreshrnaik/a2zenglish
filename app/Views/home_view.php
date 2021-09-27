@@ -41,14 +41,14 @@
 
                 <h2 class="text-center">Welcome to A2Z ENGLISH TIPS</h2>
                 <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <h4 class="side-line text-center">
-                    <span class="line"><i class="fas fa-book-reader"></i></span>
-                </h4>
-            </div>
-            <div class="col-md-4"></div>
-        </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h4 class="side-line text-center">
+                            <span class="line"><i class="fas fa-book-reader"></i></span>
+                        </h4>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
                 <P>Learn English Online with the free learning English videos and materials from A2Z ENGLISH TIPS. This channel will help you to learn English and improve your Pronunciation, Grammar, Spoken English, Communication Skills, Interview Skills, Life Skills, Motivations and vocabulary knowledge.</P>
             </div>
         </div>
@@ -71,10 +71,10 @@
                 <div class="col-md-3">
                     <div class="collapse multi-collapse" id="multiCollapseExample1">
                         <div class="card card-body">
-                                <h4 class="side-line pt-3 pb-3 text-center">
-                                    <span class="line">Inspire before your expire</span>
+                            <h4 class="side-line pt-3 pb-3 text-center">
+                                <span class="line">Inspire before your expire</span>
 
-                                </h4>
+                            </h4>
                             <i>In a day, if you don't come across any problem, make sure that you are travelling in a wrong path.</i> <br> <strong>_APJ Abdul Kalam</strong>
 
                         </div>
@@ -100,7 +100,7 @@
                 <div class="col-md-3">
                     <div class="collapse multi-collapse" id="multiCollapseExample3">
                         <div class="card card-body">
-                        <div class="pt-3 pb-3">
+                            <div class="pt-3 pb-3">
                                 <h4 class="side-line pt-3 pb-3 text-center">
                                     <span class="line">UPSC Compulsory English</span>
 
@@ -108,8 +108,8 @@
                                 <ul class="list-unstyled">
                                     <li>Syllabus-<a href="https://www.upsc.gov.in/exams-related-info/exam-notification">Click Here</a></li>
                                     <li>Materials-<a href="https://www.upsc.gov.in/exams-related-info/exam-notification">Click Here</a></li>
-                                    
-                                    
+
+
                                 </ul>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                 <div class="col-md-3">
                     <div class="collapse multi-collapse" id="multiCollapseExample4">
                         <div class="card card-body">
-                        <div class="pt-3 pb-3">
+                            <div class="pt-3 pb-3">
                                 <h4 class="side-line pt-3 pb-3 text-center">
                                     <span class="line">KAS Compulsory English</span>
                                 </h4>
@@ -354,10 +354,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/spelling-and-basic-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -375,10 +375,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/english-grammar-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -396,10 +396,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/spoken-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -417,10 +417,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/translation-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -438,10 +438,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/cursive-handwriting-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -459,10 +459,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/objective-english-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -480,10 +480,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/jobs-skills-training-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -501,10 +501,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/essay-writing-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -522,10 +522,10 @@
                             <a href="<?= base_url(); ?>/onlinecourses/build-your-vocabulary-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4">
                 <div class="small-blog m-2 p-3">
@@ -543,15 +543,15 @@
                             <a href="<?= base_url(); ?>/onlinecourses/precis-writing-course" class="btn custom-button">Buy Course</a>
 
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
-            
-        </div>
+
         </div>
     </div>
+</div>
 </div>
 <!-- Online courses starts -->
 

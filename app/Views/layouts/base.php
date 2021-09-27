@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="<?= base_url();?>/public/assets/images/favicon.png" type="image/gif" >
+        <link rel="icon" href="<?= base_url(); ?>/public/assets/images/favicon.png" type="image/gif" >
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,13 +37,13 @@
                                 <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
                                     <li><a class="dropdown-item" href="https://www.youtube.com/c/a2zenglishtips/">Youtube</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="https://www.facebook.com/english.tips.73157">Facebook Page</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="https://www.instagram.com/a2zenglishtips">Instagram</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="https://t.me/joinchat/eMVGpR68vzU3ZWY1">Telegram</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -53,19 +53,19 @@
                                 <ul class="dropdown-menu mb-0 justify-content-center" aria-labelledby="downloads-dropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">UPSC Compulsory English</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/spoken-english">KAS Compulsory English</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/parts-of-speech">English for SSC, RRB & IBPS (NRA-CET)</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/vocabulary">English for CDS, NDA</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/translation">English for SCRA, CAT, MAT & MBA Entrance Exams</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/objective-english">English for Insurance Exams (LIC, GIC...)</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/interview">English for state Police (Delhi, Bihar, Telangana ... etc.)</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">English for TET & CET</a></li>
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">English for Army, Navy & Airforce Exams</a></li>
@@ -80,19 +80,19 @@
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">Previous Year Question Papers</a></li>
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">English Grammar</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/spoken-english">Spoken English</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/parts-of-speech">Parts Of Speech</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/vocabulary">Vocabulary</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/translation">Translation</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/objective-english">Objective English</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/interview">Interview Q&A</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/essays">Essays</a></li>
                                 </ul>
                             </li>
@@ -124,14 +124,14 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
+                            <a class="nav-link active" aria-current="page" href="<?= base_url(); ?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url();?>/about">About</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/about">About</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url(); ?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Online Courses
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
@@ -158,7 +158,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url(); ?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Test Series
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
@@ -185,7 +185,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="<?= base_url();?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="<?= base_url(); ?>/onlinecourses" id="online-courses-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Academic English
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="online-courses-dropdown">
@@ -333,18 +333,18 @@
             </div>
         </footer>
 
-        
+
         Start of Tawk.to Script
-         <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/6135db77d6e7610a49b3d923/1fet62jjs';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/6135db77d6e7610a49b3d923/1fet62jjs';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
         </script> 
         End of Tawk.to Script
 
