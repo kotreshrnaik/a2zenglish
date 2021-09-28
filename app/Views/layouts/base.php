@@ -55,7 +55,7 @@
                                     <li class="hover-me"><a class="dropdown-item" href="<?= base_url(); ?>/downloads/english-grammar">UPSC Compulsory English<i class="fa fa-angle-right"></i></a>
                                         <div class="sub-menu-2 dropend">
                                             <ul>
-                                                <li><a href="#">Syllabus</a></li>
+                                                <li><a href="#" >Syllabus</a></li>
                                                 <li><a href="#">Books</a></li>
                                             </ul>
                                         </div>
